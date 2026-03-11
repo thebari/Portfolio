@@ -2,12 +2,16 @@
   color: #EEF0F2;
 }
 .rodape{
-  display: flex;
-  align-items: center;
+  text-align: center;
   justify-content: center;
+}
+
+.rodape p {
+  display: inline-block;               
+  padding: 8px 16px;                   
+  border-radius: 12px;
+  font-size: 12px;
   background-color: rgba(40, 0, 86, 0.392);
-  padding: 5px;
-  border-radius: 30%;
 }
 
 body{
@@ -45,9 +49,10 @@ main{
 }
 
 #left, #right{
-  width: 40%; /* narrower to allow for larger gap */
+  width: 40%; 
   background-color: rgba(40, 0, 86, 0.392);
   padding: 20px;
   border-radius: 30px;
 }
+
 
